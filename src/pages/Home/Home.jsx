@@ -102,7 +102,7 @@ const Home = () => {
         <div class="card">
             <h3>Services</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus minima ratione esse sequi sit et, consequatur corporis quia eligendi, iste amet dolor consectetur ducimus perferendis architecto saepe nulla commodi officia.</p>
-        <a className="otherpage" href={ROUTES.Services}>Visit</a>
+        <a className="otherpage" href={ROUTES.Services}>View</a>
         </div>
     </div>
 
@@ -111,7 +111,7 @@ const Home = () => {
         <div class="card">
             <h3>Testimonials</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus minima ratione esse sequi sit et, consequatur corporis quia eligendi, iste amet dolor consectetur ducimus perferendis architecto saepe nulla commodi officia.</p>
-        <a className='otherpage' href={ROUTES.Testimonials}>View</a>
+        <a className='otherpage' href={ROUTES.Testimonials}>Read</a>
         </div>
     </div>
 
@@ -120,11 +120,10 @@ const Home = () => {
         <div class="card">
             <h3>Stores</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus minima ratione esse sequi sit et, consequatur corporis quia eligendi, iste amet dolor consectetur ducimus perferendis architecto saepe nulla commodi officia.</p>
-        <a class="otherpage" href={ROUTES.Stores}>Find</a>
+        <a class="otherpage" href={ROUTES.Stores}>Locate</a>
         </div>
     </div>
   </div>
-
 
 </div>
   )
